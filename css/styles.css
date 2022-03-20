@@ -1,0 +1,32 @@
+.inicio__nav {
+  background: #80ff00; }
+  .inicio__nav--title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #f3f3f3; }
+  .inicio__nav--button {
+    background: #f3f3f3; }
+    .inicio__nav--button:hover {
+      box-shadow: 0 0 5px 5px #f3f3f3; }
+    .inicio__nav--button:active {
+      box-shadow: 0 0 5px #1f1f1f inset; }
+
+.personal__section {
+  margin: 5px;
+  padding: 10px;
+  background: #1f1f1f;
+  color: #f3f3f3;
+  border-radius: 10px; }
+  .personal__section--h2 {
+    padding-bottom: 2px;
+    font-size: 3rem;
+    text-shadow: 0 0 5px #80ff00;
+    border-bottom: 0.2px solid #f3f3f3; }
+  .personal__section--p {
+    font-size: 1.2rem; }
+  .personal__section--btn {
+    background: #80ff00; }
+    .personal__section--btn:hover {
+      box-shadow: 0 0 5px 5px #f3f3f3; }
+    .personal__section--btn:active {
+      box-shadow: 0 0 5px #1f1f1f inset; }

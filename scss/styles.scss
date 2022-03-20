@@ -1,0 +1,45 @@
+@import "./partials/_variables.scss";
+
+.inicio__nav {
+  background: $main-color;
+  &--title {
+    font-size: $title-size;
+    font-weight: bold;
+    text-shadow: 0 0 10px $white-color;
+  }
+  &--button {
+    background: $white-color;
+    &:hover {
+      box-shadow: 0 0 5px 5px $white-color;
+    }
+    &:active {
+      box-shadow: 0 0 5px $black-color inset;
+    }
+  }
+}
+
+.personal__section {
+  margin: 5px;
+  padding: 10px;
+  background: $black-color;
+  color: $white-color;
+  border-radius: 10px;
+  &--h2 {
+    padding-bottom: 2px;
+    font-size: $title-size;
+    text-shadow: 0 0 5px $main-color;
+    border-bottom: 0.2px solid $white-color;
+  }
+  &--p {
+    font-size: $parag-size;
+  }
+  &--btn {
+    background: $main-color;
+    &:hover {
+      box-shadow: 0 0 5px 5px $white-color;
+    }
+    &:active {
+      box-shadow: 0 0 5px $black-color inset;
+    }
+  }
+}
